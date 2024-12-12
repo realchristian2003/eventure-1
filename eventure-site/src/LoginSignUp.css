@@ -1,0 +1,105 @@
+/* General styles for the login/signup page */
+.login-signup-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://wallpapercave.com/wp/wp6244270.jpg');
+    background-size: cover; /* Make the image cover the entire page */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Make the background image stay fixed during scrolling */
+  }
+  
+  /* Login header */
+  .login-signup-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    background: linear-gradient(to right, #000080, #004080, #00ffff); /* Gradient header */
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+  
+  .logo {
+    font-family: 'Pacifico', cursive; /* Cursive font for the logo */
+    font-size: 50px;
+    color: white;
+    text-shadow: 0 0 5px #ffffff;
+  }
+  
+  .login-form-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background to let image show through */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .login-form-container h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  .input-group input:focus {
+    border-color: #00ffff; /* Focus color matching the gradient */
+  }
+  
+  .login-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #004080; /* Blue button background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-btn:hover {
+    background-color: #00ffff; /* Hover effect with cyan */
+  }
+  
+  .signup-text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .signup-text span {
+    color: #00ffff; /* Cyan color for the sign-up link */
+    cursor: pointer;
+  }
+  
+  .signup-text span:hover {
+    text-decoration: underline;
+  }
+  
